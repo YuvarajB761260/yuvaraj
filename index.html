@@ -85,7 +85,7 @@ border-radius: 50%;
 				<img src="images/arrow.png" alt=""/>
 				<div class="edu-border">
 					<div class="edu-grid-master">
-						<h3>UG IN COMPUTER SCIENCE AND SYSTEMS ENGINEERING</h3>
+						<h3>UG IN CSSE</h3>
 						<h4>Sree Vidyanikethan Engineering College</h4>
 					</div>
 					<div class="edu-grid-info">
@@ -128,25 +128,35 @@ border-radius: 50%;
 		</div>
 		<div class="strip text-center"><img src="images/ser.png" alt=" "/></div>
 		<div class="ser-grids">
-			<div class="col-md-3 ser-grid">
+			<div class="col-md-2 ser-grid">
 				<img src="images/html5.png" height="190px" width="190px">
 				<h3>HTML 5</h3>
 				<p>HTML5 is a markup language used for structuring and presenting content on the World Wide Web. It is the fifth and current major version of the HTML standard.</p>
 			</div>
-			<div class="col-md-3 ser-grid">
+			<div class="col-md-2 ser-grid">
 				<img src="images/css3.png" height="190px" width="210px">
 				<h3>CSS 3</h3>
 				<p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language.</p>
 			</div>
-			<div class="col-md-3 ser-grid">
+			<div class="col-md-2 ser-grid">
 				<img src="images/js.png" height="190px" width="140px">
 				<h3>JavaScript</h3>
 				<p>JavaScript, often abbreviated as JS, is a high-level, dynamic, weakly typed, prototype-based, multi-paradigm, and interpreted programming language.</p>
 			</div>
-			<div class="col-md-3 ser-grid">
-				<img src="images/jQurery.gif" height="190px" width="160px">
-				<h3>JQuery</h3>
-				<p>jQuery is a cross-platform JavaScript library designed to simplify the client-side scripting of HTML. It is free, open-source software using the permissive MIT License.</p>
+			<div class="col-md-2 ser-grid">
+				<img src="images/c_image.png" height="190px" width="160px">
+				<h3>C language</h3>
+				<p>C is a high-level and general-purpose programming language that is ideal for developing firmware or portable applications. Originally intended for writing system software.</p>
+			</div>
+			<div class="col-md-2 ser-grid">
+				<img src="images/Java_image" height="190px" width="160px">
+				<h3>JAVA</h3>
+				<p>Java is a general-purpose computer-programming language that is concurrent, class-based, object-oriented, and specifically designed to have as few implementation dependencies as possible.</p>
+			</div>
+			<div class="col-md-2 ser-grid">
+				<img src="images/python_image" height="190px" width="160px">
+				<h3>PYTHON</h3>
+				<p>Python is an interpreted, object-oriented, high-level programming language with dynamic semantics.it is used for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together.</p>
 			</div>
 			<div class="clearfix"></div>
 		</div>
@@ -171,7 +181,15 @@ border-radius: 50%;
 					</div>
 					<div class="col-md-2 col-md-offset-1 skills-grid text-center">
 						<div class="circle" id="circles-4"></div>
-						<p>JQuery</p>
+						<p>C language</p>
+					</div>
+					<div class="col-md-2 col-md-offset-1 skills-grid text-center">
+						<div class="circle" id="circles-5"></div>
+						<p>JAVA</p>
+					</div>
+					<div class="col-md-2 col-md-offset-1 skills-grid text-center">
+						<div class="circle" id="circles-6"></div>
+						<p>PYTHON</p>
 					</div>
 					<div class="clearfix"> </div>
 				 <script type="text/javascript" src="js/circles.js"></script>
@@ -235,11 +253,39 @@ border-radius: 50%;
 										colors:     colors[i - 1]
 									});
 								}
+							 	for (var i = 5; i <= 5; i++){
+									var child = document.getElementById('circles-' + i),
+										percentage = 60;
+										
+									Circles.create({
+										id:         child.id,
+										percentage: percentage,
+										radius:     80,
+										width:      10,
+										number:   percentage / 1,
+										text:       '%',
+										colors:     colors[i - 1]
+									});
+								}
+							 	for (var i = 6; i <= 6; i++){
+									var child = document.getElementById('circles-' + i),
+										percentage = 60;
+										
+									Circles.create({
+										id:         child.id,
+										percentage: percentage,
+										radius:     80,
+										width:      10,
+										number:   percentage / 1,
+										text:       '%',
+										colors:     colors[i - 1]
+									});
+								}
 						
 				</script>
 		</div>
 	</div>	
-</div>
+</div>	
 <div class="contact" id="contact">
 	<div class="container">
 		<div class="contact-info text-center">
